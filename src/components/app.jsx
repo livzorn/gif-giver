@@ -32,7 +32,7 @@ class App extends Component {
 
   selectGif = (id) => {
     this.setState({
-      selectGifId: id
+      selectedGifId: id
     });
   }
 
